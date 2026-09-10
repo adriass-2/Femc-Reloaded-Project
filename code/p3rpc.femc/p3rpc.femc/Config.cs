@@ -3313,6 +3313,66 @@ namespace p3rpc.femc.Configuration
         [DisplayName("Social Link: SL Ranking Up Moving Sparkles")]
         public ConfigColor CmmuRankUpMovingSparkles { get; set; } = new ConfigColor(0xFF, 0x66, 0x6E, 0xFF);
 
+
+
+
+        // TITLE TESTING
+
+        public ConfigColor TitleBgCloud1 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+        public ConfigColor TitleBgCloud2 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleBgMoonAge { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleBgMoonGlow { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleMapFilterColor1 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleMapFogColor1 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleMapBGFogColor { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleMapLightColor { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleMapGlowColor { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleMapMoonShadowColor { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleMapSunColor { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleMapHorizonColor { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleMapZenithColor { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleMapCloudColor { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleFillColorA_1 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleFillColorB_1 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleFillColorA_2 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleFillColorB_2 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleFillColorA_3 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleFillColorB_3 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleFillColorB_4 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleFillColorB_5 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleMapBgLevelColor1 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleMapBgLevelColor2 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleBgCloudColor { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor TitleBgOverallColor { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor StupidMatColor1 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
+        public ConfigColor StupidMatColor2 { get; set; } = new ConfigColor(0xFF, 0xFF, 0x00, 0xFF);
+
         /*[DisplayName("Draw Original Select Box")]
         [Category("Debug")]
         [Display(Order = 1)]

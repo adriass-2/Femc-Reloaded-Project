@@ -177,6 +177,7 @@ namespace p3rpc.femc
                 HexEditing.Field.Apply(_configuration, _context._modLocation);
                 HexEditing.SocialStats.Apply(_configuration, _context._modLocation);
                 HexEditing.Backlog.Apply(_configuration, _context._modLocation);
+                HexEditing.Title.Apply(_configuration, _context._modLocation);
             }
 			catch (Exception ex)
 			{
@@ -199,7 +200,6 @@ namespace p3rpc.femc
 			_modRuntime.AddModule<FemcEquipment>();
 			if (_configuration.EnableMailIcon) _modRuntime.AddModule<MailIcon>();
 			bool deckCompatibilitySwitch = _configuration.DeckCompatibilitySwitch;
-
 			if (_configuration.EnableCampMenu)
 			{
 				_modRuntime.AddModule<CampCommon>();
